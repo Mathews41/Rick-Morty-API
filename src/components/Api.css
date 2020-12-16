@@ -1,0 +1,60 @@
+.main {
+  max-width: 100vw;
+  background-image: url(https://wallpaperaccess.com/full/21553.jpg);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main > img {
+  width: 100%;
+  height: auto;
+  z-index: -2;
+  position: absolute;
+}
+.banner {
+  width: 100%;
+  height: 100px;
+  font-size: 38pt;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: cadetblue;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapped-characters {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.character {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  flex-direction: column;
+  background-color: rgb(171, 253, 226);
+  margin: 20px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 5px rgb(31, 31, 31);
+}
+.img {
+    border-radius: 3px;
+}
+.species {
+    width: 500px;
+    height: 10px;
+    color: rgb(77, 77, 77);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.species > span {
+    font-size: 12pt;
+}
